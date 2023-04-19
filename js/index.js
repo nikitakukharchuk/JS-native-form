@@ -75,7 +75,7 @@ const submitForm = async () => {
       body: JSON.stringify(formData),
     });
     const json = await response.json();
-    console.log(json);
+    console.log(formData);
   } catch (error) {
     console.log(error);
   }
